@@ -13,6 +13,7 @@
 		92A12D571FCE51DE0040EB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A12D561FCE51DE0040EB7F /* Assets.xcassets */; };
 		92A12D5A1FCE51DE0040EB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A12D581FCE51DE0040EB7F /* LaunchScreen.storyboard */; };
 		92A12D5D1FCE51DE0040EB7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A12D5C1FCE51DE0040EB7F /* main.m */; };
+		92A12D661FCE52960040EB7F /* FFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A12D651FCE52960040EB7F /* FFPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		92A12D591FCE51DE0040EB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A12D5B1FCE51DE0040EB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A12D5C1FCE51DE0040EB7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92A12D641FCE52960040EB7F /* FFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFPerson.h; sourceTree = "<group>"; };
+		92A12D651FCE52960040EB7F /* FFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		92A12D631FCE52310040EB7F /* MyFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				92A12D641FCE52960040EB7F /* FFPerson.h */,
+				92A12D651FCE52960040EB7F /* FFPerson.m */,
 			);
 			path = MyFrameWork;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A12D661FCE52960040EB7F /* FFPerson.m in Sources */,
 				92A12D521FCE51DE0040EB7F /* ViewController.m in Sources */,
 				92A12D5D1FCE51DE0040EB7F /* main.m in Sources */,
 				92A12D4F1FCE51DE0040EB7F /* AppDelegate.m in Sources */,
